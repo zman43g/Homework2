@@ -43,8 +43,8 @@ public class Main {
         System.out.println();
         var massBoxer1 = 78.2;
         var massBoxer2 = 82.7;
-        var massSumm = massBoxer1 + massBoxer2;
-        System.out.println("Общая масса бойцов = " + massSumm);
+        var massSummary = massBoxer1 + massBoxer2;
+        System.out.println("Общая масса бойцов = " + massSummary);
         var massDiff = massBoxer2 - massBoxer1;
         System.out.println("Разница между массами бойцов = " + massDiff);
         var divRem = massBoxer2 % massBoxer1;
