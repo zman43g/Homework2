@@ -56,7 +56,7 @@ public class Main {
         var units = hours / hoursPerUnit;
         System.out.println("Всего работников в компании — " + units + " человек.");
         units = units + 94;
-        var totalHours = hours - (hours % units);
+        var totalHours = units*8;
         System.out.println("Если в компании работает " + units + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
 
     }
