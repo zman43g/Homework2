@@ -53,12 +53,12 @@ public class Main {
         System.out.println();
         var hours = 640;
         var hoursPerUnit = 8;
-        var units = hours / hoursPerUnit;
+        var units = hours/hoursPerUnit;
         System.out.println("Всего работников в компании — " + units + " человек.");
-        units = 94 + units;
-        var totalHours = 8 * units;
+        units = units + 94;
+        var totalHours = units * 8;
 
-        System.out.println(" Если в компании работает " + units + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + units + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
 
     }
 }
