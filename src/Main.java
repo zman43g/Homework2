@@ -23,7 +23,7 @@ public class Main {
         short b4 = 569;
         short b5 = -159;
         short b6 = 27897;
-        byte b7 = 67 ;
+        byte b7 = 67;
 
         byte teacher1 = 23;
         byte teacher2 = 27;
