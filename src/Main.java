@@ -25,6 +25,7 @@ public class Main {
         short b6 = 27897;
         byte b7 = 67;
 
+
         byte teacher1 = 23;
         byte teacher2 = 27;
         byte teacher3 = 30;
